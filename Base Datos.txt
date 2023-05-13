@@ -1,0 +1,7 @@
+PRAGMA foreign_keys = OFF;
+CREATE TABLE "personal" (
+"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+"nombre" TEXT,
+"direccion" TEXT
+);
+INSERT INTO "main"."personal" VALUES (1,'salvador','mexico');
